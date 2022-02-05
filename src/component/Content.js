@@ -59,7 +59,7 @@ function Content({load}) {
     setItemId(b)
     seturl(a)
     console.log(e.target.getAttribute('data-id'));}
-
+    
     return (
     <>
      <div className="main-content modify_hidden" id="modify_hidden_ap">
@@ -88,7 +88,7 @@ function Content({load}) {
               <div data-id={'img-'+index} className="image-click" onClick={e => handleClick(e, obj.img_url, obj.id)}></div>
                 <div id={'img-'+index} className="close-and-download-btn-wrapper hidden">
                   <ul>
-                    <li><FontAwesomeIcon icon={faDownload} /></li>
+                    <li><a href={obj.img_url} download="download"><FontAwesomeIcon icon={faDownload} /></a></li>
                     <li ><FontAwesomeIcon icon={faTimes}/></li>
                   </ul>
                 </div>
