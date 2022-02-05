@@ -801,3 +801,13 @@ header.main_header {
 .share-list{
 	display: none;
 }
+
+.share_link_external div:first-child div:last-child {
+    display: none;
+}
+.share_link_external div:first-child div:first-child {
+    margin: 0 auto !important;
+    text-align: right;
+    position: relative;
+    left: 27%;
+}
