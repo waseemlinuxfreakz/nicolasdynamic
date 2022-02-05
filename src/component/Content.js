@@ -66,12 +66,12 @@ function Content({load}) {
      <div className="container">
       <h1>Click to modify</h1>
       <h1>Select and Share!</h1>
-
+      <div class="share_link_external">
       <ShareSocial 
      
      url = {url_}
      socialTypes={['facebook','twitter','reddit','linkedin']}
-   />
+   /></div>
    {isPending && <div>Pending</div>}
      {error && <div>{error}</div>}
 
