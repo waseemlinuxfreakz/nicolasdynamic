@@ -802,12 +802,42 @@ header.main_header {
 	display: none;
 }
 
-.share_link_external div:first-child div:last-child {
-    display: none;
-}
-.share_link_external div:first-child div:first-child {
+.share_link_external> div {
+    display: flex;
+    flex-direction: column;
+    max-width: 560px;
     margin: 0 auto !important;
-    text-align: right;
-    position: relative;
-    left: 27%;
+    position: unset !important;
+    padding: 30px 10px;
+}
+
+.share_link_external> div> div:first-child {
+    text-align: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: unset !important;
+}
+
+.share_link_external> div> div:nth-child(2) {display: flex !important;align-items: center;}
+
+.share_link_external> div> div:nth-child(2) div {
+    position: unset !important;
+}
+
+.share_link_external> div> div:nth-child(2) p {
+    margin: 0;
+    width: 60px;
+    flex-shrink: 0;
+    margin-left: 10px;
+}
+
+
+.share_link_external div:first-child div:last-child {
+    display: block;
+}
+
+.share_link_external> div> div:nth-child(2)> div:nth-child(1) {
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
