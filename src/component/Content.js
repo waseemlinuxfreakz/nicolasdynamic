@@ -84,14 +84,14 @@ function Content({load}) {
        <div className="row card_row">
        {data && data.map((obj, index) => (
             <div className="col-sm-4 col-4">
-              <div className="cardImage"><img src={obj.img_url} alt="waseem" data-id={obj.id} className={itemId === obj.id ? "selected_img" : ""} onClick={e => handleClick(e, obj.img_url, obj.id)} /></div>
-              {/*<div data-id={'img-'+index} className="image-click"></div>
+              <div className="cardImage"><img src={obj.img_url} alt="waseem" data-id={obj.id} className={itemId === obj.id ? "selected_img" : ""} /></div>
+              <div data-id={'img-'+index} className="image-click" onClick={e => handleClick(e, obj.img_url, obj.id)}></div>
                 <div id={'img-'+index} className="close-and-download-btn-wrapper hidden">
                   <ul>
                     <li><FontAwesomeIcon icon={faDownload} /></li>
                     <li ><FontAwesomeIcon icon={faTimes}/></li>
                   </ul>
-                </div>*/}
+                </div>
               </div>
           ))}
       </div>
