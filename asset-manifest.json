@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e55c996.css",
-    "main.js": "/static/js/main.ff37e616.js",
-    "static/js/787.6200b91a.chunk.js": "/static/js/787.6200b91a.chunk.js",
-    "static/media/video.png": "/static/media/video.f8c94dbf82ed1eab388d.png",
-    "static/media/filter_image.png": "/static/media/filter_image.efcd5ff3b674dec45576.png",
-    "static/media/filter.png": "/static/media/filter.136dd3b0bc2a229b9a35.png",
-    "static/media/image-3.jpg": "/static/media/image-3.a0f38fccd8508dc7c942.jpg",
-    "static/media/image-2.jpg": "/static/media/image-2.61d0f14eb97989a2c4f8.jpg",
-    "static/media/image-1.jpg": "/static/media/image-1.cf39776ea7645d2a469b.jpg",
-    "index.html": "/index.html",
-    "static/media/video_play.svg": "/static/media/video_play.cea760c2c4794c0fd49d02acd8bf0f58.svg",
-    "main.4e55c996.css.map": "/static/css/main.4e55c996.css.map",
-    "main.ff37e616.js.map": "/static/js/main.ff37e616.js.map",
-    "787.6200b91a.chunk.js.map": "/static/js/787.6200b91a.chunk.js.map"
+    "main.css": "/nicolasdynamic/static/css/main.4e55c996.css",
+    "main.js": "/nicolasdynamic/static/js/main.924a0ec0.js",
+    "static/js/787.6200b91a.chunk.js": "/nicolasdynamic/static/js/787.6200b91a.chunk.js",
+    "static/media/video.png": "/nicolasdynamic/static/media/video.f8c94dbf82ed1eab388d.png",
+    "static/media/filter_image.png": "/nicolasdynamic/static/media/filter_image.efcd5ff3b674dec45576.png",
+    "static/media/filter.png": "/nicolasdynamic/static/media/filter.136dd3b0bc2a229b9a35.png",
+    "static/media/image-3.jpg": "/nicolasdynamic/static/media/image-3.a0f38fccd8508dc7c942.jpg",
+    "static/media/image-2.jpg": "/nicolasdynamic/static/media/image-2.61d0f14eb97989a2c4f8.jpg",
+    "static/media/image-1.jpg": "/nicolasdynamic/static/media/image-1.cf39776ea7645d2a469b.jpg",
+    "index.html": "/nicolasdynamic/index.html",
+    "static/media/video_play.svg": "/nicolasdynamic/static/media/video_play.cea760c2c4794c0fd49d02acd8bf0f58.svg",
+    "main.4e55c996.css.map": "/nicolasdynamic/static/css/main.4e55c996.css.map",
+    "main.924a0ec0.js.map": "/nicolasdynamic/static/js/main.924a0ec0.js.map",
+    "787.6200b91a.chunk.js.map": "/nicolasdynamic/static/js/787.6200b91a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e55c996.css",
-    "static/js/main.ff37e616.js"
+    "static/js/main.924a0ec0.js"
   ]
 }
