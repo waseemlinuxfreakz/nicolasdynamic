@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nicolasdynamic/static/css/main.7b5a9c35.css",
+    "main.js": "/nicolasdynamic/static/js/main.6ca9f743.js",
+    "static/js/787.6200b91a.chunk.js": "/nicolasdynamic/static/js/787.6200b91a.chunk.js",
+    "static/media/video.png": "/nicolasdynamic/static/media/video.f8c94dbf82ed1eab388d.png",
+    "static/media/filter_image.png": "/nicolasdynamic/static/media/filter_image.efcd5ff3b674dec45576.png",
+    "static/media/filter.png": "/nicolasdynamic/static/media/filter.136dd3b0bc2a229b9a35.png",
+    "static/media/image-3.jpg": "/nicolasdynamic/static/media/image-3.a0f38fccd8508dc7c942.jpg",
+    "static/media/image-2.jpg": "/nicolasdynamic/static/media/image-2.61d0f14eb97989a2c4f8.jpg",
+    "static/media/image-1.jpg": "/nicolasdynamic/static/media/image-1.cf39776ea7645d2a469b.jpg",
+    "index.html": "/nicolasdynamic/index.html",
+    "static/media/video_play.svg": "/nicolasdynamic/static/media/video_play.661c403a4809611b64369856012c4caf.svg",
+    "main.7b5a9c35.css.map": "/nicolasdynamic/static/css/main.7b5a9c35.css.map",
+    "main.6ca9f743.js.map": "/nicolasdynamic/static/js/main.6ca9f743.js.map",
+    "787.6200b91a.chunk.js.map": "/nicolasdynamic/static/js/787.6200b91a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b5a9c35.css",
+    "static/js/main.6ca9f743.js"
+  ]
+}
