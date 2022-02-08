@@ -32,7 +32,7 @@ function Contentnone({handleload}) {
     prev_elem.classList.add("hidden");
   }
 
-  const {data, isPending, error} = useFetch("https://dev.99design.website/nickolas/?results=1")
+  const {data, isPending, error} = useFetch("http://react.rasoulsayyah.com/apiconnection/?results=1")
 
   
 const usersObject = [
