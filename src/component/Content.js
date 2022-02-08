@@ -19,11 +19,11 @@ function Content({load}) {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    console.log("https://dev.99design.website/nickolas/?results=1")
+    console.log("http://react.rasoulsayyah.com/apiconnection/?results=1")
     const abortCont = new AbortController();
 
     setTimeout(() => {
-      fetch("https://dev.99design.website/nickolas/?results=1", { signal: abortCont.signal})
+      fetch("http://react.rasoulsayyah.com/apiconnection/?results=1", { signal: abortCont.signal})
       .then(res => {
         if (!res.ok) { 
           throw Error('could not fetch the data for that resource');
